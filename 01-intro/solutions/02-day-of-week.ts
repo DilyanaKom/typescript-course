@@ -9,6 +9,6 @@ function dayOfWeek(dayNum: number) : void {
         Sunday
     };
 
-console.log(Days[dayNum])
+console.log(Days[dayNum] || 'error')
 }
-dayOfWeek(1);
+dayOfWeek(8);

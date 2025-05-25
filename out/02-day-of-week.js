@@ -11,7 +11,7 @@ function dayOfWeek(dayNum) {
         Days[Days["Sunday"] = 7] = "Sunday";
     })(Days || (Days = {}));
     ;
-    console.log(Days[dayNum]);
+    console.log(Days[dayNum] || 'error');
 }
-dayOfWeek(1);
+dayOfWeek(8);
 //# sourceMappingURL=02-day-of-week.js.map
