@@ -1,0 +1,1 @@
+{"version":3,"file":"04-convert-arrays.js","sourceRoot":"","sources":["../01-intro/solutions/04-convert-arrays.ts"],"names":[],"mappings":";AAAA,SAAS,aAAa,CAAC,KAAe;IAClC,MAAM,MAAM,GAAG,KAAK,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;IAC9B,OAAO,CAAC,MAAM,EAAE,MAAM,CAAC,MAAM,CAAC,CAAC;AACnC,CAAC;AAAA,CAAC;AAEF,OAAO,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC,KAAK,EAAE,KAAK,EAAE,MAAM,CAAC,CAAC,CAAC,CAAC"}
