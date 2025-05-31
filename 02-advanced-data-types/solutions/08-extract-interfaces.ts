@@ -1,19 +1,16 @@
 export {}; 
 type TaskStatus = 'Logged' | 'Started' | 'InProgress' | 'Done'
-type User = { username: string, signupDate: Date};
+interface  User { username: string, signupDate: Date};
 type Task = {
     status: TaskStatus,
     title: string,
     daysRequired: number,
-    assignedTo: {
-        username: string,
-        signupDate: Date
-    } | undefined,
+    assignedTo: User | undefined,
     changeStatus(newStatus: TaskStatus ): void
     }
 
 
 
-function assignTask(user: User , task: ){
+function assignTask(user: User , task: Task){
 
 }
