@@ -11,7 +11,13 @@ interface Dish {
 interface OrderDetails {
     orderId: number,
     quantity: number,
-    orderStatus: OrderStatus
+    orderStatus: OrderStatus,
+    getOrderSummary: () => string,
+    updateOrderStatus: () => void,
+    getOrderStatus: () => string
+
+
+
 
 
 }
