@@ -11,4 +11,5 @@ class Counter {
 Counter.increment();
 Counter.increment();
 console.log(Counter.getCount());
+// Counter.count = 10;
 //# sourceMappingURL=07-class-counter.js.map
