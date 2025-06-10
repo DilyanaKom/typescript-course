@@ -53,8 +53,8 @@ class Inventory {
 // inventory.addProduct(product1);
 // inventory.addProduct(product2)
 // console.log(inventory.listProducts());
-Product.productCount = 10;
+// Product.productCount = 10;
 const product = new Product("", 800);
 const product2 = new Product("Phone", 0);
-product.id = 5;
+// product.id = 5;
 //# sourceMappingURL=13-inventory-system.js.map
