@@ -30,4 +30,6 @@ countedSet.remove('test');
 countedSet.remove('test');
 console.log(countedSet.getNumberOfCopies('test'));
 console.log(countedSet.contains('test'));
+// codesCounterSet.add(205); //TS Error
+// codesCounterSet.getNumberOfCopies(350); //TS Error
 //# sourceMappingURL=02-countable-set.js.map
